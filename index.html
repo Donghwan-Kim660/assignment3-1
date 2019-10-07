@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Medleies of Link's Awakening</title>
+
+	<style type="text/css">
+		
+		body {
+			background-image: url(bg.png); 
+			background-repeat: no-repeat; 
+			background-size: cover;
+			}
+
+			.title{display: block; margin-left: auto; margin-right: auto;
+					padding: cover; padding-left: 700px; padding-right: 700px; 
+					padding-top: 20px; padding-bottom: 20px; background-color: #FFFFFF; 
+					border: 1px solid white;}
+			.center{text-align: center; border:1px solid green; background-size: cover; 
+					background-color: green; color: white;}
+			
+			.thum{height: 300px; width: 300px; margin: 50px; border: 10px; 
+					border-width: 10px; border-radius: 5px; box-shadow: 5px 5px 3px #9E9E9E;
+					opacity: 0.8}
+			.thum:hover{opacity: 1}
+
+			.table{align-content: center;}
+			.th{align-content: center;}
+			.tr{align-content: center;}
+
+	</style>
+
+</head>
+
+<body>
+
+	<img src="1.png" id="1" class="title">
+
+	<div class="center"><h1>Medleies of Link's Awakening</h1></div><br><br>
+	<p></p>
+
+	<table>
+
+		<tr>
+			<th><img src="a.gif" class="thum" id="a"></th>
+			<audio src="a-1.mp3" id="as"></audio>
+
+			<th><img src="b.jpg" class="thum" id="b"></th>
+			<audio src="b-1.mp3" id="bs"></audio>
+
+			<th><img src="c.jpg" class="thum" id="c"></th>
+			<audio src="c-1.mp3" id="cs1"></audio>
+
+			<th><img src="d.png" class="thum" id="d"></th>
+			<audio src="d-1.mp3" id="ds"></audio>
+
+		</tr>
+
+		<tr>
+			<th><h1>01. Title Screen</h1></th>
+
+			<th><h1>02. The Wise Owl</h1></th>
+
+			<th><h1>03. Find the Sword!</h1></th>
+
+			<th><h1>04. Peaceful Mabe Town</h1></th>
+		</tr>
+			
+		<tr>
+			<th><img src="e.jpg" class="thum" id="e"></th>
+			<audio src="e-1.mp3" id="es"></audio>
+
+			<th><img src="f.jpg" class="thum" id="f"></th>
+			<audio src="f-1.mp3" id="fs"></audio>
+
+			<th><img src="g.jpg" class="thum" id="g"></th>
+			<audio src="g-1.mp3" id="gs"></audio>
+
+			<th><img src="h.png" class="thum" id="h"></th>
+			<audio src="h-1.mp3" id="hs"></audio>
+		</tr>
+
+		<tr>
+			<th><h1>05. Ballad of Wind Fish</h1></th>
+
+			<th><h1>06. Boss Battle</h1></th>
+
+			<th><h1>07. Final Battle</h1></th>
+
+			<th><h1>08. End of Dream</h1></th>
+		</tr>
+
+	</table>
+
+	<script type="text/javascript">
+		
+			var astate = "off";
+			a.onclick = function(){
+			if(astate == "off"){
+				a.style.opacity = "1";
+				as.play();
+				as.volume = 1;
+				astate = "on";
+			}else{
+				a.style.opacity = "0.8";
+				as.pause();
+				astate = "off";
+				}
+			}
+
+			var bstate = "off";
+			b.onclick = function(){
+			if(bstate == "off"){
+				b.style.opacity = "1";
+				bs.play();
+				bs.volume = 1;   		
+				bstate = "on";
+			}else{
+				b.style.opacity = "0.8";
+				bs.pause();
+				bstate = "off";
+			}
+		}
+		
+			var cstate = "off";
+			c.onclick = function(){
+			if(cstate == "off"){
+				c.style.opacity = "1";
+				cs1.play();
+				cs1.volume = 1; 		
+				cstate = "on";
+			}else{
+				c.style.opacity = "0.8";
+				cs1.pause();
+				cstate = "off";
+			}
+		}
+
+		var dstate = "off";
+		d.onclick = function(){
+			if(dstate == "off"){
+				d.style.opacity = "1";
+				ds.play();
+				ds.volume = 1;   		
+				dstate = "on";
+			}else{
+				d.style.opacity = "0.8";
+				ds.pause();
+				dstate = "off";
+			}
+		}
+
+		var estate = "off";
+		e.onclick = function(){
+			if(estate == "off"){
+				e.style.opacity = "1";
+				es.play();
+				es.volume = 1;   		
+				estate = "on";
+			}else{
+				e.style.opacity = "0.8";
+				es.pause();
+				estate = "off";
+			}
+		}
+
+		var fstate = "off";
+		f.onclick = function(){
+			if(fstate == "off"){
+				f.style.opacity = "1";
+				fs.play();
+				fs.volume = 1;   		
+				fstate = "on";
+			}else{
+				f.style.opacity = "0.8";
+				fs.pause();
+				fstate = "off";
+			}
+		}
+
+		var gstate = "off";
+		g.onclick = function(){
+			if(gstate == "off"){
+				g.style.opacity = "1";
+				gs.play();
+				gs.volume = 1;   		
+				gstate = "on";
+			}else{
+				g.style.opacity = "0.8";
+				gs.pause();
+				gstate = "off";
+			}
+		}
+
+		var hstate = "off";
+		h.onclick = function(){
+			if(hstate == "off"){
+				h.style.opacity = "1";
+				hs.play();
+				hs.volume = 1;   		
+				hstate = "on";
+			}else{
+				h.style.opacity = "0.8";
+				hs.pause();
+				hstate = "off";
+			}
+		}
+
+	</script>
+
+</body>
+</html>
